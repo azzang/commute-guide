@@ -1,0 +1,17 @@
+body {
+  background: #333;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

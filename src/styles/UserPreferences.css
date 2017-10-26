@@ -1,0 +1,16 @@
+.UserPreferences > section {
+  padding: 2.5rem 2.5rem 0;
+}
+
+.UserPreferences > section:last-of-type {
+  padding-bottom: 2.5rem;
+}
+
+.UserPreferences input {
+  max-width: 200px;
+  width: 100%;
+}
+
+.UserPreferences input:last-of-type {
+  margin-bottom: 0;
+}

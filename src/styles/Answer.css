@@ -1,0 +1,27 @@
+.Answer {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  padding: 2.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.Answer > header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Answer__close-btn {
+  border: none;
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.fa.Answer__icon {
+  color: #33C3F0;
+  font-size: 6rem;
+  margin-bottom: 2.5rem;
+}

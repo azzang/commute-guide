@@ -1,0 +1,8 @@
+.Question__header {
+  border-bottom: 1px solid #E1E1E1;
+  padding: 2.5rem;
+}
+
+.Question__prompt {
+  margin-bottom: 0;
+}

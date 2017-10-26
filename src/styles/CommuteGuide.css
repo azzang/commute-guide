@@ -1,0 +1,20 @@
+.CommuteGuide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 700px;
+  min-height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+.CommuteGuide > main {
+  background: #fff;
+  position: relative;
+}
+
+.CommuteGuide > footer {
+  color: #fff;
+  margin-top: 3rem;
+}
