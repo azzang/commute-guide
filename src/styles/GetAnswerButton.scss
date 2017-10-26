@@ -1,8 +1,8 @@
 .GetAnswerButton {
   border-radius: 0;
   margin-bottom: 0;
-}
 
-.GetAnswerButton:disabled {
-  cursor: not-allowed;
+  &:disabled {
+    cursor: not-allowed;
+  }
 }

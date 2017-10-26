@@ -1,3 +1,6 @@
+@import './partials/colors.scss';
+@import './partials/sizes.scss';
+
 .CommuteGuide {
   display: flex;
   flex-direction: column;
@@ -7,14 +10,14 @@
   min-height: 100vh;
   text-align: center;
   width: 100%;
-}
 
-.CommuteGuide > main {
-  background: #fff;
-  position: relative;
-}
+  & > main {
+    background: $white;
+    position: relative;
+  }
 
-.CommuteGuide > footer {
-  color: #fff;
-  margin-top: 3rem;
+  & > footer {
+    color: $white;
+    margin-top: $large;
+  }
 }

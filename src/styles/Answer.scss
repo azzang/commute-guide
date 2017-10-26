@@ -1,19 +1,22 @@
+@import './partials/colors.scss';
+@import './partials/sizes.scss';
+
 .Answer {
-  background: #fff;
+  background: $white;
   bottom: 0;
   left: 0;
-  padding: 2.5rem;
+  padding: $large;
   position: absolute;
   right: 0;
   top: 0;
+
+  & > header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
-.Answer > header {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.Answer__close-btn {
+.Answer__closer {
   border: none;
   font-size: 4rem;
   margin: 0;
@@ -21,7 +24,7 @@
 }
 
 .fa.Answer__icon {
-  color: #33C3F0;
+  color: $light_blue;
   font-size: 6rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: $large;
 }

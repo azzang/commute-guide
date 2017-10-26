@@ -1,6 +1,11 @@
-.Question__header {
-  border-bottom: 1px solid #E1E1E1;
-  padding: 2.5rem;
+@import './partials/colors.scss';
+@import './partials/sizes.scss';
+
+.Question {
+  & > header {
+    border-bottom: 1px solid $light_grey;
+    padding: $large;
+  }
 }
 
 .Question__prompt {

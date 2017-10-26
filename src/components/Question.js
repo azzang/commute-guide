@@ -7,7 +7,7 @@ class Question extends Component {
   render() {
     return (
       <section className="Question">
-        <header className="Question__header">
+        <header>
           <h1>Should You Bike or Metro?</h1>
           <p className="Question__prompt">
             It depends. Answer the questions below to find out!

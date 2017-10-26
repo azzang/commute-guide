@@ -127,7 +127,7 @@ class Answer extends Component {
     return (
       <section className="Answer" style={this.getStyle()}>
         <header>
-          <button type="button" className="Answer__close-btn" onClick={this.close}>✕</button>
+          <button type="button" className="Answer__closer" onClick={this.close}>✕</button>
         </header>
         <main>
           <span className={`Answer__icon fa fa-${this.state.iconName}`}></span>
