@@ -9,3 +9,5 @@ $ npm start
 You can test the app by running ```npm test```.
 
 \* This project was started with [Create React App].
+
+[Create React App]: https://github.com/facebookincubator/create-react-app
