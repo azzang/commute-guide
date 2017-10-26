@@ -5,10 +5,11 @@ import CommuteGuide from './components/CommuteGuide';
 
 import registerServiceWorker from './registerServiceWorker';
 
-import './styles/normalize.css';
-import './styles/skeleton.css';
-import './styles/font-awesome.css';
-import './styles/Datetime.css';
+import './styles/lib/Datetime.css';
+import './styles/lib/font-awesome.css';
+import './styles/lib/normalize.css';
+import './styles/lib/skeleton.css';
+
 import './styles/index.css';
 
 ReactDOM.render(<CommuteGuide />, document.getElementById('root'));
