@@ -1,7 +1,7 @@
 # **Commute Guide**
 You've found a React app that helps users decide if they should bike or metro to work! To run locally, use the following commands:
 ```
-$ git clone git@github.com:azzang/commute-guide.git
+$ git clone https://github.com/azzang/commute-guide.git
 $ cd commute-guide
 $ npm install
 $ npm start
