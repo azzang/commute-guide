@@ -19,7 +19,7 @@ class UserPreferences extends Component {
         </section>
         <section>
           <h2>Temperature <small>(°F)</small></h2>
-          <p>What is the minimum temperature you're willing to bike in?</p>
+          <p>What is the minimum temperature you&apos;re willing to bike in?</p>
           <input type="number" min="-130" max="130"
             placeholder="Enter Minimum Temp."
             value={this.props.minTemp}
