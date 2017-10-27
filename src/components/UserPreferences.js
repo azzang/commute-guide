@@ -32,7 +32,7 @@ class UserPreferences extends Component {
         </section>
         <section>
           <h2>Chance of Precipitation <small>(%)</small></h2>
-          <p>What is the maximum chance of precipitation you're willing to bike in?</p>
+          <p>What is the maximum chance of precipitation you&apos;re willing to bike in?</p>
           <input type="number" min="0" max="100"
             placeholder="Enter Chance" step="1"
             value={this.props.chanceOfPrecipitation}
